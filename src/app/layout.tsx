@@ -19,7 +19,7 @@ const rutenia = localFont({
 export const metadata: Metadata = {
   title: "Marko Asaulyuk",
   description:
-    "Marko Asaulyuk — marketing strategist and builder based in San Francisco.",
+    "Marko Asaulyuk — MBA candidate in San Francisco focused on strategy, uncertainty, risk, incentives, and organizational intelligence.",
   metadataBase: new URL("https://asaulyuk.com"),
   alternates: {
     canonical: "https://asaulyuk.com",
