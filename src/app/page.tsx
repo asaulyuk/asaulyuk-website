@@ -70,10 +70,10 @@ export default function Home() {
             />
           </div>
 
-          <div className="mt-10 shrink-0 text-center md:mt-8 md:text-left">
-            <div className="mx-auto flex w-fit items-center justify-center gap-2.5 font-serif text-xs leading-loose text-muted md:mx-0 md:justify-start md:text-sm lg:text-base">
+          <div className="mt-10 shrink-0 md:mt-8">
+            <div className="mx-auto grid w-fit grid-cols-[2.7em_auto] items-center gap-x-2.5 gap-y-1 font-serif text-xs leading-loose text-muted md:mx-0 md:text-sm lg:text-base">
               <span
-                className="block size-[2.7em] shrink-0 bg-current opacity-80 [mask-image:url('/sfsu-identity-primary.svg')] [mask-repeat:no-repeat] [mask-size:contain] [-webkit-mask-image:url('/sfsu-identity-primary.svg')] [-webkit-mask-repeat:no-repeat] [-webkit-mask-size:contain]"
+                className="block size-[2.7em] bg-current opacity-80 [mask-image:url('/sfsu-identity-primary.svg')] [mask-position:center] [mask-repeat:no-repeat] [mask-size:contain] [-webkit-mask-image:url('/sfsu-identity-primary.svg')] [-webkit-mask-position:center] [-webkit-mask-repeat:no-repeat] [-webkit-mask-size:contain]"
                 aria-hidden="true"
               />
               <span className="text-left">
@@ -81,23 +81,23 @@ export default function Home() {
                 <br />
                 San Francisco State University.
               </span>
+              <span className="flex justify-center">
+                <svg
+                  viewBox="-62 8 124 224"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="h-[1.9em] w-auto"
+                >
+                  <path d="M5.985561 78.82382a104.079383 104.079383 0 0 0 14.053598 56.017033 55 55 0 0 1-13.218774 70.637179A20 20 0 0 0 0 212.5a20 20 0 0 0-6.820384-7.021968 55 55 0 0 1-13.218774-70.637179A104.079383 104.079383 0 0 0-5.98556 78.82382l-1.599642-45.260519A30.103986 30.103986 0 0 1 0 12.5a30.103986 30.103986 0 0 1 7.585202 21.063301zM5 193.624749a45 45 0 0 0 6.395675-53.75496A114.079383 114.079383 0 0 1 0 112.734179a114.079383 114.079383 0 0 1-11.395675 27.13561A45 45 0 0 0-5 193.624749V162.5H5z" />
+                  <path
+                    id="tryzub-wing"
+                    d="M27.779818 75.17546A62.64982 62.64982 0 0 1 60 27.5v145H0l-5-10a22.5 22.5 0 0 1 17.560976-21.95122l14.634147-3.292683a10 10 0 1 0-4.427443-19.503751zm5.998315 34.353887a20 20 0 0 1-4.387889 37.482848l-14.634146 3.292683A12.5 12.5 0 0 0 5 162.5h45V48.265462a52.64982 52.64982 0 0 0-12.283879 28.037802zM42 122.5h10v10H42z"
+                  />
+                  <use href="#tryzub-wing" transform="scale(-1 1)" />
+                </svg>
+              </span>
+              <span className="text-left">Ukrainian Orthodox.</span>
             </div>
-            <p className="mt-1 font-serif text-xs leading-loose text-muted md:text-sm lg:text-base">
-              <svg
-                viewBox="-62 8 124 224"
-                fill="currentColor"
-                aria-hidden="true"
-                className="mr-1.5 inline-block h-[1.3em] w-auto align-[-0.25em]"
-              >
-                <path d="M5.985561 78.82382a104.079383 104.079383 0 0 0 14.053598 56.017033 55 55 0 0 1-13.218774 70.637179A20 20 0 0 0 0 212.5a20 20 0 0 0-6.820384-7.021968 55 55 0 0 1-13.218774-70.637179A104.079383 104.079383 0 0 0-5.98556 78.82382l-1.599642-45.260519A30.103986 30.103986 0 0 1 0 12.5a30.103986 30.103986 0 0 1 7.585202 21.063301zM5 193.624749a45 45 0 0 0 6.395675-53.75496A114.079383 114.079383 0 0 1 0 112.734179a114.079383 114.079383 0 0 1-11.395675 27.13561A45 45 0 0 0-5 193.624749V162.5H5z" />
-                <path
-                  id="tryzub-wing"
-                  d="M27.779818 75.17546A62.64982 62.64982 0 0 1 60 27.5v145H0l-5-10a22.5 22.5 0 0 1 17.560976-21.95122l14.634147-3.292683a10 10 0 1 0-4.427443-19.503751zm5.998315 34.353887a20 20 0 0 1-4.387889 37.482848l-14.634146 3.292683A12.5 12.5 0 0 0 5 162.5h45V48.265462a52.64982 52.64982 0 0 0-12.283879 28.037802zM42 122.5h10v10H42z"
-                />
-                <use href="#tryzub-wing" transform="scale(-1 1)" />
-              </svg>
-              Ukrainian Orthodox.
-            </p>
             <div className="mt-6 flex justify-center md:mt-5 md:block">
               <SocialLinks />
             </div>
