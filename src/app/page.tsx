@@ -56,11 +56,9 @@ export default function Home() {
               My focus is on the{" "}
               <em className="italic text-foreground/90">intelligence that bridges the two</em>.
             </p>
-            <p className="font-rutenia text-[0.92em] text-foreground/85">
+            <p className="w-max whitespace-nowrap font-rutenia text-[0.92em] text-foreground/85">
               <span className="italic">
-                «Шукайте ж найперш
-                <br />
-                Царства Божого...»
+                «Шукайте ж найперш Царства Божого...»
               </span>
               <span className="ml-2 align-middle tracking-wide text-muted">
                 М 6:33
