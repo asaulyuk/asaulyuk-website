@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import localFont from "next/font/local";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const garamond = EB_Garamond({
+  variable: "--font-garamond",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
+const rutenia = localFont({
+  src: "../fonts/Rutenia2008VasylChebanyk.ttf",
+  variable: "--font-rutenia-face",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -30,9 +34,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playfair.variable} bg-background`}
+      className={`${garamond.variable} ${rutenia.variable} bg-background`}
     >
-      <body className="min-h-screen font-sans antialiased">{children}</body>
+      <body className="min-h-screen font-serif antialiased">{children}</body>
     </html>
   );
 }
