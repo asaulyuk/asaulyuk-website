@@ -25,17 +25,17 @@ export default function Home() {
 
         <div className="relative z-10 flex flex-col px-6 py-8 md:ml-auto md:w-1/2 md:flex-none md:px-14 md:py-[clamp(1.25rem,4vh,3rem)] lg:px-24">
           <div className="shrink-0">
-            <p className="mb-2 flex items-baseline gap-3 text-sm text-muted md:mb-[clamp(0.5rem,1.2vh,0.75rem)] md:text-[clamp(0.8rem,1.6vh,1.125rem)] lg:gap-4">
+            <p className="mb-2 flex items-baseline gap-3 text-sm text-muted md:mb-[clamp(0.5rem,1.2vh,0.9rem)] md:text-[clamp(0.85rem,1.7vh,1.6rem)] lg:gap-4">
               <span className="font-rutenia">Марко Асаулюк</span>
               <span aria-hidden="true">·</span>
               <span className="font-serif tracking-[0.2em]">/ ɑsɐuˈlʲuk /</span>
             </p>
-            <h1 className="font-serif text-[1.65rem] font-medium leading-[1.1] sm:text-4xl md:text-[clamp(2rem,5.4vh,3.75rem)]">
+            <h1 className="font-serif text-[1.65rem] font-medium leading-[1.1] sm:text-4xl md:text-[clamp(2.25rem,6.2vh,5.5rem)]">
               Marko ASAULYUK
             </h1>
           </div>
 
-          <div className="mt-8 flex min-h-0 max-w-[22rem] flex-none flex-col gap-7 font-serif text-[0.9rem] leading-relaxed text-foreground/75 md:mt-[clamp(1rem,3vh,2rem)] md:flex-1 md:justify-between md:gap-0 md:text-[clamp(0.82rem,1.7vh,1.125rem)]">
+          <div className="mt-8 flex min-h-0 max-w-[30rem] flex-none flex-col gap-7 font-serif text-[0.9rem] leading-relaxed text-foreground/75 md:mt-[clamp(1rem,3.5vh,2.5rem)] md:flex-1 md:justify-between md:gap-0 md:text-[clamp(0.9rem,2.15vh,1.6rem)]">
             <div
               className="h-px w-20 shrink-0 bg-accent/70 md:w-28"
               aria-hidden="true"
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
 
           <div className="mt-10 shrink-0 md:mt-[clamp(1rem,3vh,2rem)]">
-            <div className="mx-auto grid w-fit grid-cols-[2.7em_auto] items-center gap-x-2.5 gap-y-1 font-serif text-xs leading-loose text-muted md:mx-0 md:text-[clamp(0.72rem,1.4vh,1rem)]">
+            <div className="mx-auto grid w-fit grid-cols-[2.7em_auto] items-center gap-x-2.5 gap-y-1 font-serif text-xs leading-loose text-muted md:mx-0 md:text-[clamp(0.72rem,1.5vh,1.2rem)]">
               <span
                 className="block size-[2.7em] bg-current opacity-80 [mask-image:url('/sfsu-identity-primary.svg')] [mask-position:center] [mask-repeat:no-repeat] [mask-size:contain] [-webkit-mask-image:url('/sfsu-identity-primary.svg')] [-webkit-mask-position:center] [-webkit-mask-repeat:no-repeat] [-webkit-mask-size:contain]"
                 aria-hidden="true"
