@@ -3,8 +3,8 @@ import { SocialLinks } from "@/components/social-links";
 
 export default function Home() {
   return (
-    <main className="flex min-h-[100dvh] overflow-x-clip bg-background text-foreground md:h-[100dvh] md:overflow-hidden">
-      <section className="relative flex h-full w-full flex-col md:flex-row">
+    <main className="flex min-h-[100dvh] overflow-x-clip bg-background text-foreground">
+      <section className="relative flex min-h-[100dvh] w-full flex-col md:flex-row">
         <div className="relative h-[38dvh] shrink-0 overflow-hidden md:absolute md:left-0 md:top-0 md:z-0 md:h-full md:w-1/2">
           <HeroPortrait />
           <div
@@ -23,7 +23,7 @@ export default function Home() {
           </span>
         </div>
 
-        <div className="relative z-10 flex min-h-0 flex-1 flex-col overflow-hidden px-6 py-5 md:ml-auto md:w-1/2 md:flex-none md:px-14 md:py-10 lg:px-24 lg:py-12">
+        <div className="relative z-10 flex flex-col px-6 py-8 md:ml-auto md:w-1/2 md:flex-none md:px-14 md:py-10 lg:px-24 lg:py-12">
           <div className="shrink-0">
             <p className="mb-2 flex items-baseline gap-3 text-sm text-muted md:mb-3 md:text-base lg:gap-4 lg:text-lg">
               <span className="font-rutenia">Марко Асаулюк</span>
