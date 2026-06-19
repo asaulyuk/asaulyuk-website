@@ -74,6 +74,12 @@ export default function Home() {
             <p className="font-serif text-xs leading-loose text-muted md:text-sm lg:text-base">
               MBA candidate,
               <br />
+              <img
+                src="/sfsu-seal-white.png"
+                alt=""
+                aria-hidden="true"
+                className="mr-1.5 inline-block h-[1.25em] w-auto align-[-0.25em] opacity-80"
+              />
               San Francisco State University.
               <br />
               <svg
