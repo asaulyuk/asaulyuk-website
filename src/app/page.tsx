@@ -3,8 +3,8 @@ import { SocialLinks } from "@/components/social-links";
 
 export default function Home() {
   return (
-    <main className="flex min-h-[100dvh] overflow-x-clip bg-background text-foreground">
-      <section className="relative flex min-h-[100dvh] w-full flex-col md:flex-row">
+    <main className="flex min-h-[100dvh] overflow-x-clip bg-background text-foreground md:h-[100dvh] md:overflow-hidden">
+      <section className="relative flex min-h-[100dvh] w-full flex-col md:min-h-0 md:h-full md:flex-row">
         <div className="relative h-[38dvh] shrink-0 overflow-hidden md:absolute md:left-0 md:top-0 md:z-0 md:h-full md:w-1/2">
           <HeroPortrait />
           <div
