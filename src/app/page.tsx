@@ -71,17 +71,18 @@ export default function Home() {
           </div>
 
           <div className="mt-10 shrink-0 text-center md:mt-8 md:text-left">
-            <p className="font-serif text-xs leading-loose text-muted md:text-sm lg:text-base">
-              MBA candidate,
-              <br />
-              <img
-                src="/sfsu-seal-white.png"
-                alt=""
+            <div className="mx-auto flex w-fit items-center justify-center gap-2.5 font-serif text-xs leading-loose text-muted md:mx-0 md:justify-start md:text-sm lg:text-base">
+              <span
+                className="block size-[2.7em] shrink-0 bg-current opacity-80 [mask-image:url('/sfsu-identity-primary.svg')] [mask-repeat:no-repeat] [mask-size:contain] [-webkit-mask-image:url('/sfsu-identity-primary.svg')] [-webkit-mask-repeat:no-repeat] [-webkit-mask-size:contain]"
                 aria-hidden="true"
-                className="mr-1.5 inline-block h-[1.25em] w-auto align-[-0.25em] opacity-80"
               />
-              San Francisco State University.
-              <br />
+              <span className="text-left">
+                MBA candidate,
+                <br />
+                San Francisco State University.
+              </span>
+            </div>
+            <p className="mt-1 font-serif text-xs leading-loose text-muted md:text-sm lg:text-base">
               <svg
                 viewBox="-62 8 124 224"
                 fill="currentColor"
