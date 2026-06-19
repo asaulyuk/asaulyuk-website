@@ -3,7 +3,7 @@ import { SocialLinks } from "@/components/social-links";
 
 export default function Home() {
   return (
-    <main className="flex h-[100dvh] overflow-hidden bg-background text-foreground">
+    <main className="flex min-h-[100dvh] overflow-x-clip bg-background text-foreground md:h-[100dvh] md:overflow-hidden">
       <section className="relative flex h-full w-full flex-col md:flex-row">
         <div className="relative h-[38dvh] shrink-0 overflow-hidden md:absolute md:right-0 md:top-0 md:z-0 md:h-full md:w-1/2">
           <HeroPortrait />
@@ -35,7 +35,7 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="mt-6 flex min-h-0 max-w-[22rem] flex-1 flex-col justify-between font-serif text-[0.9rem] leading-relaxed text-foreground/75 md:mt-8 md:text-base lg:text-lg">
+          <div className="mt-8 flex min-h-0 max-w-[22rem] flex-none flex-col gap-7 font-serif text-[0.9rem] leading-relaxed text-foreground/75 md:mt-8 md:flex-1 md:justify-between md:gap-0 md:text-base lg:text-lg">
             <div
               className="h-px w-20 shrink-0 bg-accent/70 md:w-28"
               aria-hidden="true"
@@ -72,7 +72,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="mt-6 shrink-0 md:mt-8">
+          <div className="mt-10 shrink-0 text-center md:mt-8 md:text-left">
             <p className="font-serif text-xs leading-loose text-muted md:text-sm lg:text-base">
               MBA candidate,
               <br />
@@ -93,7 +93,7 @@ export default function Home() {
               </svg>
               Ukrainian Orthodox.
             </p>
-            <div className="mt-4 md:mt-5">
+            <div className="mt-6 flex justify-center md:mt-5 md:block">
               <SocialLinks />
             </div>
           </div>
